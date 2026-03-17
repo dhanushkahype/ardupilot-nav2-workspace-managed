@@ -1,0 +1,25 @@
+# Ignore the actual source code (tracked by .repos file instead)
+src/*/
+
+# Ignore build and runtime artifacts
+build/
+install/
+log/
+logs/
+*.bin
+*.tlog
+*.tlog.raw
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+# Ignore ArduPilot crash dumps and temp files
+*.out
+*.parm
+*.DAT
+terrain/
+
+# Ignore the actual source folders (since we have the .repos file)
+src/
+Micro-XRCE-DDS-Gen/
